@@ -1,0 +1,216 @@
+*{
+   
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk";
+}
+
+header{
+display: flex;
+justify-content: space-around;
+margin: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a.active{
+    font-weight: 800;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.bx-search-alt-2{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 20px;
+
+
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    background-color: #f90000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(header-Img.jpg);
+    background-size: 100%; */
+
+    position: relative;
+  background-color: rgba(0, 0, 0, 0.24);
+   
+
+}
+
+
+
+.container::before{
+    content: "";
+     background-image: url(header-Img.jpg);
+     background-size: 100%;
+     position: absolute;
+     inset: 0;
+     opacity: 0.4;
+}
+
+#bgImg{
+    isolation: isolate;
+  
+}
+
+
+
+.select{
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.two{
+    margin-top: 200px;
+}
+
+.category{
+    width:250px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: gray;
+}
+
+.btn{
+     width:250px;
+     height: 50px;
+     border-radius: 7px;
+     border: none;
+     background-color: rgba(128, 128, 128, 0.445);
+     font-size: large;
+     color: white;
+}
+
+
+
+.picture{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.514);
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.picturesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+
+
+
+h1 ,p{
+     font-family: "Poppins",
+     sans-serif;
+     font-weight: 100;
+     font-style: normal;
+}
+
+.picturesContainer p{
+margin-left: 15px;
+color: black;
+font-weight: bolder;
+font-size: 15px;
+}
+
+.topBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topBtn a{
+text-decoration: none;
+color: black;
+}
+
+.topBtn a:hover{
+    color: white;
+}
+
+.topBtn button{
+    background-color: transparent;
+    border: none;
+    
+}
+
+.topBtn button:hover{
+    background-color: rgb(85, 154, 233);
+    color: white;
+    border-radius: 7px;
+}
+
+.nextBtn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nextBtn button{
+    border: none;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+
+.containerSecond {
+   width: 100%;
+   height: 100%;
+   position:absolute;
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+   
+}
+
+
+.componentOne{
+    width: 1504px;
+    height: 522px;
+    background-color: rgba(128, 128, 128, 0.349);
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.componentOneImage{
+    background-color: aliceblue;
+      width: 350px;
+      height: 350px;
+      background-color: rgba(128, 128, 128, 0.514);
+      border-radius: 10px;
+      margin-left: 20px;
+    background-image: url(young.jpg);
+    background-size: cover;
+    
+}
+
+
+.popularVenue P{
+    font-weight: lighter
+
+}
+
+.popularVenue h3{
+    margin-left: 15px;
+}
